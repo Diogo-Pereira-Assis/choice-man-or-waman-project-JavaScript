@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>exercicio 2 cuso js</title>
+</head>
+<body id="fundo">
+
+    <main>
+        <header><h1>escolha sexo e idade</h1></header>
+        <section class="content-project">
+            <p>Qual o ano que você nasceu
+                <input type="number" value="idade" id="nacimento">
+            </p>
+            <div class="sexo">
+                <p class="inputs">Qual sexo você pertence? 
+                    <span style="margin-left: 40px;">
+                    <span>Homem</span>
+                    <input type="radio" name="sexo" id="masc" checked>
+                    <span>Mulher</span>
+                    <input type="radio" name="sexo" id="femi">
+                    </span>
+
+                    <!--caso eu utilizade o label eu n precisaria de fazer essas configurações no css-->
+                </p>
+                <div class="button">
+                    <input type="button" value="enviar" onclick="play()">
+                </div>
+                <div style="text-align:center; margin-top:20px;"><p id="msg-sexo">Você escolheu o sexo</p></div>
+
+                <div class="foto">
+                    
+                </div>
+
+            </div>
+
+            
+            
+            <div class="foto">
+        
+            </div><!--foto-->
+        </section><!--content-project-->
+        
+        <footer> made by diogo</footer>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
